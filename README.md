@@ -1,6 +1,6 @@
 # Neural Network for Fashion Classification
 
-![Project presentation showing a classified T-shirt](assets/project-overview.png)
+![Project presentation showing a classified T-shirt](assets/project-overview.jpg)
 
 A fully connected neural network built from first principles with Python and NumPy. I developed it for my Extended Project Qualification (EPQ) to understand the mathematics and engineering behind image classification rather than relying on TensorFlow, PyTorch or a prebuilt training framework.
 
@@ -20,7 +20,7 @@ This was my first long-form independent software project. It combined mathematic
 
 These figures are **training accuracy**, not held-out test accuracy. The original project did not build a rigorous validation pipeline, so the 99.97% result may indicate overfitting. External-image preprocessing was also inconsistent. I describe both limitations in [the project case study](docs/PROJECT.md#evaluation-and-limitations).
 
-![Testing evidence from the final presentation](assets/testing.png)
+![Testing evidence from the final presentation](assets/testing.jpg)
 
 ## Technical overview
 
