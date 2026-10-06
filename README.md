@@ -20,7 +20,32 @@ This was my first long-form independent software project. It combined mathematic
 
 These figures are **training accuracy**, not held-out test accuracy. The original project did not build a rigorous validation pipeline, so the 99.97% result may indicate overfitting. External-image preprocessing was also inconsistent. I describe both limitations in [the project case study](docs/PROJECT.md#evaluation-and-limitations).
 
-![Testing evidence from the final presentation](assets/testing.jpg)
+## Project outputs
+
+These are original outputs from the completed model and development record. The confidence labels show the model's output for selected examples; they do not represent test-set accuracy.
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/results/tshirt-classification.png" alt="Model classifying a T-shirt" width="100%"><br><strong>T-shirt classification</strong></td>
+    <td align="center"><img src="assets/results/sneaker-classification.png" alt="Model classifying a sneaker" width="100%"><br><strong>Sneaker classification</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/results/trouser-classification.png" alt="Model classifying trousers" width="100%"><br><strong>Trouser classification</strong></td>
+    <td align="center"><img src="assets/results/sandal-classification.png" alt="Model classifying a sandal" width="100%"><br><strong>Sandal classification</strong></td>
+  </tr>
+</table>
+
+### Training evidence
+
+The original development record below shows the Fashion-MNIST input format and output from a longer training run. The reported accuracy is training accuracy.
+
+![Training example and recorded epoch output](assets/results/training-evidence.jpg)
+
+### External-image preprocessing
+
+The project also tested a simple preprocessing pipeline on an external T-shirt image. This selected example worked, but external-image performance was not evaluated systematically and remained a limitation of the project.
+
+![External T-shirt image and the model's processed classification](assets/results/external-image-evidence.jpg)
 
 ## Technical overview
 
